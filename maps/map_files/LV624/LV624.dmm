@@ -660,6 +660,7 @@
 "ada" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/tool/shovel,
+/obj/structure/machinery/computer/objective,
 /turf/open/shuttle{
 	icon_state = "floor4"
 	},
@@ -790,6 +791,7 @@
 /obj/item/stack/sheet/metal{
 	amount = 30
 	},
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor{
 	dir = 8;
 	icon_state = "vault"
@@ -861,6 +863,7 @@
 /obj/item/stack/sheet/mineral/tritium{
 	pixel_x = -4
 	},
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor{
 	dir = 8;
 	icon_state = "vault"
@@ -1096,6 +1099,7 @@
 /area/lv624/ground/barrens/containers)
 "aeO" = (
 /obj/vehicle/train/cargo/trolley,
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor,
 /area/lv624/ground/barrens/containers)
 "aeQ" = (
@@ -13684,6 +13688,11 @@
 	icon_state = "grassdirt_corner"
 	},
 /area/lv624/ground/jungle/north_jungle)
+"cfP" = (
+/obj/effect/decal/remains/human,
+/obj/effect/landmark/objective_landmark/science,
+/turf/open/floor/plating,
+/area/lv624/ground/barrens/central_barrens)
 "cfT" = (
 /obj/structure/bed/chair{
 	dir = 8
@@ -14499,6 +14508,10 @@
 	},
 /turf/open/gm/grass,
 /area/lv624/ground/jungle/east_jungle)
+"eah" = (
+/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/plating,
+/area/lv624/ground/barrens/central_barrens)
 "eaJ" = (
 /obj/item/stack/sheet/wood{
 	amount = 2
@@ -15789,6 +15802,11 @@
 	icon_state = "whiteblue"
 	},
 /area/lv624/lazarus/corporate_dome)
+"hhU" = (
+/obj/vehicle/train/cargo/trolley,
+/obj/effect/landmark/objective_landmark/medium,
+/turf/open/floor,
+/area/lv624/ground/barrens/containers)
 "hjl" = (
 /obj/structure/fence,
 /turf/open/gm/dirtgrassborder{
@@ -18797,6 +18815,11 @@
 	},
 /turf/open/floor/wood,
 /area/lv624/ground/caves/north_central_caves)
+"oiv" = (
+/obj/effect/decal/remains/human,
+/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/plating,
+/area/lv624/ground/barrens/central_barrens)
 "omK" = (
 /turf/open/gm/coast{
 	dir = 4;
@@ -19209,6 +19232,13 @@
 /obj/structure/flora/bush/ausbushes/genericbush,
 /turf/open/gm/grass,
 /area/lv624/ground/jungle/east_jungle)
+"pcz" = (
+/obj/effect/landmark/objective_landmark/medium,
+/turf/open/floor{
+	dir = 1;
+	icon_state = "bot"
+	},
+/area/lv624/ground/barrens/containers)
 "pcA" = (
 /turf/open/gm/dirtgrassborder{
 	dir = 4;
@@ -19531,6 +19561,11 @@
 	icon_state = "grassdirt_corner"
 	},
 /area/lv624/ground/jungle/north_west_jungle)
+"pOK" = (
+/obj/item/ammo_casing,
+/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/plating,
+/area/lv624/ground/barrens/central_barrens)
 "pOW" = (
 /obj/item/storage/firstaid/toxin,
 /turf/open/floor{
@@ -21498,6 +21533,8 @@
 "uya" = (
 /turf/open/gm/dirt,
 /area/lv624/lazarus/crashed_ship_containers)
+"uyH" = (
+)
 "uzH" = (
 /turf/open/floor/plating{
 	dir = 8;
@@ -22028,6 +22065,10 @@
 	dir = 4
 	},
 /area/lv624/ground/jungle/south_central_jungle)
+"vPu" = (
+/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor,
+/area/lv624/ground/barrens/containers)
 "vPV" = (
 /turf/open/gm/dirtgrassborder{
 	dir = 8;
@@ -36161,7 +36202,7 @@ xwr
 xwr
 ahy
 ahK
-ahL
+hZW
 ahL
 ahL
 ahL
@@ -36616,7 +36657,7 @@ xwr
 xwr
 xwr
 ahy
-ahL
+hZW
 ahL
 ahL
 ahL
@@ -42311,7 +42352,7 @@ agf
 ajW
 ajW
 ajW
-ajW
+eah
 ajW
 ajW
 afX
@@ -42763,9 +42804,9 @@ afk
 afv
 afL
 afX
-agg
+oiv
 ago
-agg
+cfP
 ajW
 agS
 afN
@@ -43679,7 +43720,7 @@ afX
 agg
 ajW
 ajW
-afN
+pOK
 ajW
 ajW
 afN
@@ -44365,7 +44406,7 @@ ajW
 agC
 ajW
 afN
-ajW
+eah
 ajW
 ajW
 ahQ
@@ -46858,7 +46899,7 @@ aem
 qjf
 aeA
 qjf
-qjf
+vPu
 qjf
 qjf
 afg
@@ -47548,7 +47589,7 @@ qjf
 qjf
 afl
 qjf
-aex
+pcz
 qjf
 qjf
 lQC
@@ -50051,7 +50092,7 @@ xNK
 xNK
 qjf
 qjf
-aeO
+hhU
 qjf
 qjf
 qjf
@@ -50279,7 +50320,7 @@ xNK
 xNK
 qjf
 qjf
-aeO
+hhU
 qjf
 qjf
 qjf
@@ -51262,7 +51303,7 @@ fjM
 fjM
 fjM
 azx
-aIB
+uyH
 aAA
 aBa
 aBD
